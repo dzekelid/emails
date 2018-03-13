@@ -35,7 +35,7 @@ apis:
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/sendgrid/suppression-invalid-emails-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/sendgrid/suppression-invalid-emails-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
