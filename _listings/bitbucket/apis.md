@@ -25,7 +25,7 @@ apis:
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/bitbucket/user-emails-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/bitbucket/user-emails-parameters.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
