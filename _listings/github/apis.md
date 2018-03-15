@@ -40,7 +40,7 @@ apis:
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/github/user-emails-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/github/user-emails-post.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
