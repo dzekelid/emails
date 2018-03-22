@@ -18,9 +18,9 @@ tags:
 - Email
 - Email
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/sendgrid/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: SendGrid
@@ -35,7 +35,7 @@ apis:
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/emails/master/_listings/sendgrid/suppression-invalid-emails-email-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/suppression-invalid-emails-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
