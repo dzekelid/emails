@@ -21,15 +21,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dyn Retrieve Emails Delivered
-  description: Retrieve Emails Delivered
+- name: Dyn Retrieve Count of Emails Delivered
+  description: Retrieve Count of Emails Delivered
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
   humanURL: http://dyn.com/
   baseURL: https://{host}//
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/dyn/reports-delivered-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/dyn/reports-delivered-count-get.md
 x-common:
 - type: x-base
   url: https://api.dynect.net
