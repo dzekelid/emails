@@ -1,11 +1,18 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Delete Suppression Inval Emails
+  description: "**This endpoint allows you to remove email addresses from your invalid
+    email address list.**\n\nThere are two options for deleting invalid email addresses:
+    \n\n1) You can delete all invalid email addresses by setting `delete_all` to true
+    in the request body.\n2) You can delete some invalid email addresses by specifying
+    certain addresses in an array in the request body.\n\nAn invalid email occurs
+    when you attempt to send email to an address that is formatted in a manner that
+    does not meet internet email format standards or the email does not exist at the
+    recipient\u2019s mail server.\n\nExamples include addresses without the \u201C@\u201D
+    sign or addresses that include certain special characters and/or spaces. This
+    response can come from our own server or the recipient mail server.\n\nFor more
+    information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html)."
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
