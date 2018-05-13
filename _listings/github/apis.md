@@ -41,23 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/github/user-emails-post.md
-- name: Github Get User Emails
+- name: Github Add User Emails
   description: |-
-    List email addresses for a user.
-    In the final version of the API, this method will return an array of hashes
-    with extended information for each email address indicating if the address
-    has been verified and if it's primary email address for GitHub.
-    Until API v3 is finalized, use the application/vnd.github.v3 media type to
-    get other response format.
+    Add email address(es).
+    You can post a single email address or an array of addresses.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/github/user-emails-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/github/user-emails-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/github/user-emails-post.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
