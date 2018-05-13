@@ -26,19 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bitbucket/user-emails-email-parameters.md
-- name: Bitbucket Get User Emails
-  description: |-
-    Returns all the authenticated user's email addresses. Both
-    confirmed and unconfirmed.
+- name: Bitbucket Parameters User Emails
+  description: Parameters user emails
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bitbucket/user-emails-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bitbucket/user-emails-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bitbucket/user-emails-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bitbucket/user-emails-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
