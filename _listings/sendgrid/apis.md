@@ -36,23 +36,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/suppression-invalid-emails-email-get.md
-- name: SendGrid Get Suppression Inval Emails
-  description: "**This endpoint allows you to retrieve a list of all invalid email
-    addresses.**\n\nAn invalid email occurs when you attempt to send email to an address
-    that is formatted in a manner that does not meet internet email format standards
-    or the email does not exist at the recipient\u2019s mail server.\n\nExamples include
-    addresses without the \u201C@\u201D sign or addresses that include certain special
-    characters and/or spaces. This response can come from our own server or the recipient
-    mail server.\n\nFor more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html)."
+- name: SendGrid Delete Suppression Inval Emails Email
+  description: "**This endpoint allows you to remove a specific email address from
+    the invalid email address list.**\n\nAn invalid email occurs when you attempt
+    to send email to an address that is formatted in a manner that does not meet internet
+    email format standards or the email does not exist at the recipient\u2019s mail
+    server.\n\nExamples include addresses without the \u201C@\u201D sign or addresses
+    that include certain special characters and/or spaces. This response can come
+    from our own server or the recipient mail server.\n\nFor more information, please
+    see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html)."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Emails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/suppression-invalid-emails-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/suppression-invalid-emails-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/suppression-invalid-emails-email-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
