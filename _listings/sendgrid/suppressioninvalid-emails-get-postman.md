@@ -2,7 +2,7 @@
   "info": {
     "name": "SendGrid Get Suppression Inval Emails",
     "_postman_id": "849fdd6c-e8a9-4e43-91c5-e8e072104c88",
-    "description": "**This endpoint allows you to retrieve a list of all invalid email addresses.**\n\nAn invalid email occurs when you attempt to send email to an address that is formatted in a manner that does not meet internet email format standards or the email does not exist at the recipient’s mail server.\n\nExamples include addresses without the “@” sign or addresses that include certain special characters and/or spaces. This response can come from our own server or the recipient mail server.\n\nFor more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html).",
+    "description": "**This endpoint allows you to retrieve a list of all invalid email addresses.**\n\nAn invalid email occurs when you attempt to send email to an address that is formatted in a manner that does not meet internet email format standards or the email does not exist at the recipient???s mail server.\n\nExamples include addresses without the ???@??? sign or addresses that include certain special characters and/or spaces. This response can come from our own server or the recipient mail server.\n\nFor more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/invalid_emails.html).",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [

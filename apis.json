@@ -1,0 +1,1230 @@
+{
+	"name": "Streadata.io API Gallery - Emails",
+	"description": "This is a repository of emails APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/emails.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://emails.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clickatell",
+			"x-api-slug": "clickatell",
+			"description": "Clickatell is a leading company in Global Mobile Messaging. You can reach 1000+ global networks with 1 API using Clickatells Bulk SMS Gateway.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg",
+			"humanURL": "http://clickatell.com",
+			"baseURL": "http://api.clickatell.com/http/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/clickatell/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Constant Contact",
+			"x-api-slug": "constant-contact",
+			"description": "With Constant Contact, you can create effective email marketing and other online marketing campaigns to meet your business goals. Start your FREE trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg",
+			"humanURL": "http://blogs.constantcontact.com",
+			"baseURL": "https://api.constantcontact.com//v2",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/constant-contact/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/context-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "FullContact",
+			"x-api-slug": "fullcontact",
+			"description": "Build a clearer picture of your customers in minutes with our data-focused APIs. Manage your personal or teams contacts with our contact apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg",
+			"humanURL": "http://fullcontact.com",
+			"baseURL": "https://api.fullcontact.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/fullcontact/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Heroku",
+			"x-api-slug": "heroku",
+			"description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg",
+			"humanURL": "http://heroku.com",
+			"baseURL": "https://api.heroku.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/heroku/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "iContact",
+			"x-api-slug": "icontact",
+			"description": "iContact provides an email marketing solution thats instant and easy. Start seeing ROI and send emails today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/215-icontact.jpg",
+			"humanURL": "http://developer.icontact.com/",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/icontact/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MailChimp",
+			"x-api-slug": "mailchimp",
+			"description": "MailChimp is a marketing platform for small businesses. Send beautiful emails, connect your e-commerce store, advertise, and build your brand. Sign up today for free email marketing, landing pages, and marketing automation tools that help you sell more...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/224-mailchimp.jpg",
+			"humanURL": "http://apidocs.mailchimp.com/",
+			"baseURL": "https://{dc}.api.mailchimp.com//2.0",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailchimp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rackspace",
+			"x-api-slug": "rackspace",
+			"description": "Host on our dedicated or cloud infrastructure or through one of our partners. Leverage our expertise to run fast and lean. We offer web, app or email hosting, data services and managed security solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg",
+			"humanURL": "http://www.rackspace.com/",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/rackspace/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tropo",
+			"x-api-slug": "tropo",
+			"description": "Hosted Voice and SMS API",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg",
+			"humanURL": "https://www.tropo.com/",
+			"baseURL": "https://api.tropo.com//v1/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/tropo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twitter",
+			"x-api-slug": "twitter",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png",
+			"humanURL": "https://twitter.com/",
+			"baseURL": "https://api.twitter.com//1.1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/twitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ConvertAPI",
+			"x-api-slug": "convertapi",
+			"description": "Create PDF easily with our developers API/SDK for Ruby Java .NET C# PHP Shell Delphi.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg",
+			"humanURL": "http://www.convertapi.com/",
+			"baseURL": "https://do.convertapi.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/convertapi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bronto Software",
+			"x-api-slug": "bronto-software",
+			"description": "Bronto Software provides the tools marketers need to automate, streamline, and maximize their efforts. Join the ecommerce marketers who rely on Bronto to deliver the best in email marketing today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/382-bronto-software.jpg",
+			"humanURL": "http://community.bronto.com/api/v4",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bronto-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingdom",
+			"x-api-slug": "pingdom",
+			"description": "Monitor your websites availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg",
+			"humanURL": "http://www.pingdom.com",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/pingdom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sendible",
+			"x-api-slug": "sendible",
+			"description": "Sendible is a social media management tool that helps agencies and companies boost their productivity on social media. Try it for free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/472-sendible.jpg",
+			"humanURL": "http://sendible.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendible/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SocketLabs",
+			"x-api-slug": "socketlabs",
+			"description": "SocketLabs offers trusted, easy-to-use email delivery solutions, in-depth analytics, and easy integration! Get started online today with a free account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/482-socketlabs.jpg",
+			"humanURL": "https://www.socketlabs.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/socketlabs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dyn",
+			"x-api-slug": "dyn",
+			"description": "Dyn is home to the worlds most trusted DNS product suite and the worlds most reputable Email Deliverability Service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg",
+			"humanURL": "http://dynect.net",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/dyn/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Elastic Email",
+			"x-api-slug": "elastic-email",
+			"description": "Elastic Email is an all-in-one email delivery platform. Send beautiful newsletters or transactional emails in a better way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg",
+			"humanURL": "http://elasticemail.com",
+			"baseURL": "http://api.elasticemail.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/elastic-email/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mailgun",
+			"x-api-slug": "mailgun",
+			"description": "Mailgun provides a web service for integrating email inboxes into apps. Providing APIs for sending, receiving, and storing APis, including tools for managing delivery, real-time integration, organizing, routing, and tracking on emails. Malign provides a free trial to learn about services, and pay as you go, unit based pricing to continue from there, including volume pricing for increased usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg",
+			"humanURL": "http://mailgun.net",
+			"baseURL": "https://api.mailgun.net/v2/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailgun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Postmark",
+			"x-api-slug": "postmark",
+			"description": "Trusted by thousands of developers, Postmark is a fast and reliable transactional email service. Send with Postmark to ensure your transactional emails get to the inbox on time, every time.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg",
+			"humanURL": "http://postmarkapp.com",
+			"baseURL": "https://api.postmarkapp.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/postmark/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cambridge",
+			"x-api-slug": "cambridge",
+			"description": "Cambridge University Press advances learning, knowledge and research worldwide",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/724-cambridge.jpg",
+			"humanURL": "http://cambridge.org",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/cambridge/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cisco WebEx",
+			"x-api-slug": "cisco-webex",
+			"description": "Cisco Webex is the leading enterprise solution for video conferencing & web conferencing today. This secure software-based platform for video & audio conferencing, group messaging & webinars helps organizations be more productive.Participants can join ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/730-cisco-webex.jpg",
+			"humanURL": "https://webex.com",
+			"baseURL": "https://api.ciscospark.com//v1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/cisco-webex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MailerLite",
+			"x-api-slug": "mailerlite",
+			"description": "Email Marketing Software for Small Businesses, Professional Bloggers and Authors. All plans include drag-and-drop email builder, automation & landing pages. As well as unlimited emails & 24/7 customer support. Sign up for free and start sending beautif...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/842-mailerlite.jpg",
+			"humanURL": "https://www.mailerlite.com/",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailerlite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mailjet",
+			"x-api-slug": "mailjet",
+			"description": "Streamline your emailing and boost your sales with Mailjet. We serve all your email and SMS needs with one simple and powerful solution. You can try it now with 6000 emails/mo absolutely free. Sign up now, or read more about how we can help your busine...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg",
+			"humanURL": "http://mailjet.com",
+			"baseURL": "https://api.mailjet.com/v3/REST/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailjet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayJunction",
+			"x-api-slug": "payjunction",
+			"description": "PayJunction is a Level 1 PCI Compliant Service Provider that services thousands of businesses in every state in the United States. Since 2000, PayJunction has rapidly become a leading developer and provider of cutting edge merchant technology. PayJunction has also formed strategic alliances with leading financial institutions and technology partners to deliver the most comprehensive services in the industry.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payjunction-logo.png",
+			"humanURL": "http://payjunction.com/",
+			"baseURL": "https://example.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/payjunction/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Brigham Young University",
+			"x-api-slug": "brigham-young-university",
+			"description": "Official page for Brigham Young University.   Undergraduate applications: https://www.lds.org/church-education/college-application?lang=eng  Graduate program info: http://graduatestudies.byu.edu",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1510-brigham-young-university.jpg",
+			"humanURL": "https://byu.edu",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/brigham-young-university/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mynewsdesk",
+			"x-api-slug": "mynewsdesk",
+			"description": "Discover the impact of Digital PR! Monitor what is being said about your brand, create your story, identify and engage your audience and analyze the results",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg",
+			"humanURL": "http://www.mynewsdesk.com",
+			"baseURL": "https://www.mynewsdesk.com//services/pressroom/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mynewsdesk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataValidation",
+			"x-api-slug": "datavalidation",
+			"description": "A complete solution for email marketers and ESPs. The most comprehensive API for realtime email validation, email list validation, and automating daily list maintenance with Email Assurance. Check email list quality, or monitor list quality over time with free vetting tokens included with every plan. Analyze the quality of an email address at the point of signup. Our API can handle extremely high volume. Clean email lists quickly and receive comprehensive email deliverability data on each email address. Your entire list is returned to you with Email Assurance grades ranging from A+ to F. Automate your email list maintenance with our API. Protect your deliverability by integrating the complete Email Assurance solution. Set up daily list monitoring, weekly list maintenance, and the realtime email validation behind your webform. We analyze all email data daily, ensuring that your email list is always ready for deployment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-validation-api.png",
+			"humanURL": "https://developer.datavalidation.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/datavalidation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APILayer",
+			"x-api-slug": "apilayer",
+			"description": "With offices in Vienna (HQ) and London, we are an Austrian technology company aiming to help developers, startups and larger companies automate and outsource complex processes by serving them with dedicated and handy programming interfaces - in short, APIs. Our goal is to offer quick and simple access to our software with the objective of speeding up development of your applications and easing the burden on your back-end. Our team has the opportunity to rethink how business processes work and how they can be improved, and we are thrilled to be building an entire platform dedicated to allowing companies to focus on what really matters.",
+			"image": "https://avatars.githubusercontent.com/u/12207343?v=3",
+			"humanURL": "https://apilayer.com/",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/apilayer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"x-api-slug": "bitbucket",
+			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
+			"humanURL": "http://bitbucket.org",
+			"baseURL": "https://api.bitbucket.org//2.0",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bitbucket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New Relic",
+			"x-api-slug": "new-relic",
+			"description": "New Relic???s digital intelligence platform lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg",
+			"humanURL": "https://newrelic.com/",
+			"baseURL": "https:///v2/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/new-relic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Certificate Manager",
+			"x-api-slug": "aws-certificate-manager",
+			"description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services. SSL/TLS certificates are used to secure network communications and establish the identity of websites over the Internet. AWS Certificate Manager removes the time-consuming manual process of purchasing, uploading, and renewing SSL/TLS certificates. With AWS Certificate Manager, you can quickly request a certificate, deploy it on AWS resources such as Elastic Load Balancers or Amazon CloudFront distributions, and let AWS Certificate Manager handle certificate renewals. SSL/TLS certificates provisioned through AWS Certificate Manager are free. You pay only for the AWS resources you create to run your application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png",
+			"humanURL": "https://aws.amazon.com/certificate-manager/",
+			"baseURL": ":///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/aws-certificate-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"x-api-slug": "aws-simple-email-service",
+			"description": "Amazon Simple Email Service (Amazon SES) is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer base. With Amazon SES, you can send and receive email with no required minimum commitments &ndash; you pay as you go, and you only pay for what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png",
+			"humanURL": "https://aws.amazon.com/ses/",
+			"baseURL": ":///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/aws-simple-email-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gmail",
+			"x-api-slug": "gmail",
+			"description": "The Gmail API is a RESTful API that can be used to access Gmail mailboxes and send mail. For most web applications (including mobile apps), the Gmail API is the best choice for authorized access to a users Gmail data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png",
+			"humanURL": "https://www.google.com/gmail/",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/gmail/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Nylas",
+			"x-api-slug": "nylas",
+			"description": "Nylas makes it incredibly easy to interface with email, scheduling, and contacts. It&rsquo;s the modern email messaging platform for enterprise apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-05-08 at 1.45.11 PM.png",
+			"humanURL": "https://nylas.com/",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/nylas/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mimecast",
+			"x-api-slug": "mimecast",
+			"description": "Mimecast is an international company specializing in cloud-based email management for Microsoft Exchange and Microsoft Office 365, including security, archiving, and continuity services to protect business mail.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mimecast-logo.png",
+			"humanURL": "https://www.mimecast.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mimecast/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jumpseller",
+			"x-api-slug": "jumpseller",
+			"description": "We founded Jumpseller.com in 2009 in Europe  we called it Vendder back then  and released our first version of the Jumpseller product in September 2010. After releasing the product we quickly grew to thousands of customers. In November 2010, we recei...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg",
+			"humanURL": "http://jumpseller.com",
+			"baseURL": "https://api.jumpseller.com//v1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/jumpseller/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SalesLoft",
+			"x-api-slug": "salesloft",
+			"description": "SalesLoft, the leading sales engagement platform, transforms the way sellers engage with their customers by delivering a better selling experience. Our sales engagement platform helps teams set and execute on a cadence of phone, email, and social communications to convert more target accounts into customer accounts. The platform equips sales leaders with new capabilities to test, learn and adapt to ensure their sales reps execute on the most effective selling process for their account-based approach. SalesLoft delivers access to an extensive ecosystem of 3rd party integrations allowing teams to perform all their sales engagement from a single platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png",
+			"humanURL": "http://salesloft.com",
+			"baseURL": "https://api.salesloft.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/salesloft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twine",
+			"x-api-slug": "twine",
+			"description": "Twine Health is a cloud-based collaborative care platform for chronic disease management. It consists of a patient engagement portal, a peer support network, a care management solution, and an outcome analytics tool. The platform enables users to co-create personalized care plans that serve as common ground for collaboration with their care team: their own providers such as physicians and nurse practitioners; their family and friends; and coaches such as nurses, pharmacists, health coaches, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png",
+			"humanURL": "http://twinehealth.com",
+			"baseURL": "https://api.twinehealth.com//pub",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/twine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data2CRM",
+			"x-api-slug": "data2crm",
+			"description": "Data2CRM is all-in-one master touch instrument to create the perfect data environment for prosperous internal and external connections.Data2CRM.API, a Unified API Provider, to Connect Your Business Software with 17+ CRMs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png",
+			"humanURL": "http://data2crm.com",
+			"baseURL": "https://api.data2crm.com:80//v1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/data2crm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apigee",
+			"x-api-slug": "apigee",
+			"description": "Apigee Edge is a platform for developing and managing API proxies. Think of a proxy as an abstraction layer that fronts for your backend service APIs and provides value-added features like security, rate limiting, quotas, analytics, and more. The primary consumers of Edge API proxies are app developers who want to use your backend services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png",
+			"humanURL": "https://docs.apigee.com/api-platform/get-started/what-apigee-edge",
+			"baseURL": "https://api.enterprise.apigee.com//v1/",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/apigee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kentico Cloud",
+			"x-api-slug": "kentico-cloud",
+			"description": "Kentico Cloud is the #1 CMS that enables digital teams to collaborate quickly to create engaging personalized experiences across any device. Free 30-day trial!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg",
+			"humanURL": "https://kenticocloud.com/",
+			"baseURL": "https://deliver.kenticocloud.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/kentico-cloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Emails",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Emails",
+	"include": [
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/npr/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "Clickatell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/clickatell/apis.yaml"
+		},
+		{
+			"name": "Constant Contact",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/constant-contact/apis.yaml"
+		},
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "FullContact",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/fullcontact/apis.yaml"
+		},
+		{
+			"name": "Heroku",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/heroku/apis.yaml"
+		},
+		{
+			"name": "iContact",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/icontact/apis.yaml"
+		},
+		{
+			"name": "MailChimp",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailchimp/apis.yaml"
+		},
+		{
+			"name": "Rackspace",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/rackspace/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Tropo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/tropo/apis.yaml"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/twitter/apis.yaml"
+		},
+		{
+			"name": "ConvertAPI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/convertapi/apis.yaml"
+		},
+		{
+			"name": "Bronto Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bronto-software/apis.yaml"
+		},
+		{
+			"name": "Pingdom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/pingdom/apis.yaml"
+		},
+		{
+			"name": "Sendible",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/sendible/apis.yaml"
+		},
+		{
+			"name": "SocketLabs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/socketlabs/apis.yaml"
+		},
+		{
+			"name": "Dyn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/dyn/apis.yaml"
+		},
+		{
+			"name": "Elastic Email",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/elastic-email/apis.yaml"
+		},
+		{
+			"name": "Mailgun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailgun/apis.yaml"
+		},
+		{
+			"name": "Postmark",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/postmark/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Cambridge",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/cambridge/apis.yaml"
+		},
+		{
+			"name": "Cisco WebEx",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/cisco-webex/apis.yaml"
+		},
+		{
+			"name": "MailerLite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailerlite/apis.yaml"
+		},
+		{
+			"name": "Mailjet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mailjet/apis.yaml"
+		},
+		{
+			"name": "PayJunction",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/payjunction/apis.yaml"
+		},
+		{
+			"name": "Brigham Young University",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/brigham-young-university/apis.yaml"
+		},
+		{
+			"name": "Mynewsdesk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mynewsdesk/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "DataValidation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/datavalidation/apis.yaml"
+		},
+		{
+			"name": "APILayer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/apilayer/apis.yaml"
+		},
+		{
+			"name": "Bitbucket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/bitbucket/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "New Relic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/new-relic/apis.yaml"
+		},
+		{
+			"name": "AWS Certificate Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/aws-certificate-manager/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/aws-simple-email-service/apis.yaml"
+		},
+		{
+			"name": "Gmail",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/gmail/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Nylas",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/nylas/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Mimecast",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/mimecast/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Jumpseller",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/jumpseller/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "SalesLoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/salesloft/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "Twine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/twine/apis.yaml"
+		},
+		{
+			"name": "Data2CRM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/data2crm/apis.yaml"
+		},
+		{
+			"name": "Apigee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/apigee/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "Kentico Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/kentico-cloud/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/emails/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

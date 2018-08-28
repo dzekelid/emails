@@ -68,6 +68,18 @@ paths:
       - User
       - Emails
       - Email
+    parameters:
+      summary: Parameters User Emails Email
+      description: Parameters user emails email
+      operationId: parametersUserEmailsEmail
+      x-api-path-slug: useremailsemail-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Emails
+      - Email
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

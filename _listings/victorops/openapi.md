@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: VictorOps
 x-complete: 1
@@ -113,4 +112,25 @@ paths:
       - Contact-methods
       - Emails
       - ContactId
----
+  /api-public/v1/policies/types/contacts:
+    get:
+      summary: Get the available contact types
+      description: |-
+        Get the available contact types
+
+        description: "Email Address", type: "email"
+        description: "Phone Number", type: "phone"
+
+        This API may be called a maximum of 15 times per minute.
+      operationId: api_public.v1.policies.types.contacts.get
+      x-api-path-slug: apipublicv1policiestypescontacts-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Policies
+      - Types
+      - Contacts

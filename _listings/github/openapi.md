@@ -1,11 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: GitHub
 x-complete: 1
 info:
   title: GitHub
-  description: github-is-the-best-place-to-share-code-with-friends-coworkers-classmates-and-complete-strangers--over-24-million-people-use-github-to-build-amazing-things-together-across-67-million-repositories--with-the-collaborative-features-of-github-com-and-github-business-it-has-never-been-easier-for-individuals-and-teams-to-write-faster-better-code-
-  termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
   version: 1.0.0
 host: api.github.com
 basePath: /
@@ -89,4 +86,27 @@ paths:
       tags:
       - User
       - Emails
----
+  /legacy/user/email/{email}:
+    get:
+      summary: Get Legacy User Email Email
+      description: This API call is added for compatibility reasons only.
+      operationId: this-api-call-is-added-for-compatibility-reasons-only
+      x-api-path-slug: legacyuseremailemail-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: email
+        description: The email address
+      responses:
+        200:
+          description: OK
+      tags:
+      - Legacy
+      - User
+      - Email
+      - Email
